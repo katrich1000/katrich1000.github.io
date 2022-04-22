@@ -1,0 +1,74 @@
+@media screen and (max-width: 1000px) {
+.rectangle1{
+	height: 90vh;
+}
+	nav {
+	text-align: left;
+}
+    nav #span{
+         display: inline-block;
+
+    }
+    nav  ul {
+        display: none;;
+    }
+
+ul li {
+	display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+		background: rgba(255, 255, 255, 0.78);
+
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+
+    overflow-x: hidden;
+    transition: 2s;
+    padding-top: 60px;
+}
+.rectangle4{
+display: flex;
+flex-direction: column;
+
+align-content: center;
+
+
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+	font-family: 'Calibri';
+		text-align:center;
+    font-size: 60px;
+    color: #818181;
+    display: block;
+
+}
+.rectangle4 .menu1{
+	margin: 0 auto;
+	margin-top: 43px;
+}
+.menu1{
+	display:flex;
+flex-direction:column;
+flex-wrap: wrap;
+	justify-content: center;
+gap: 70px;
+
+}
+.menu1 div {
+height: 90vw;
+	width: 70vw;
+border-radius: 17px;
+justify-content: center;
+}
+
+
+}
