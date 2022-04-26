@@ -1,0 +1,5 @@
+User-agent: *
+User-agent: *
+Crawl-delay: 1
+Host: katrich1000.github.io
+Sitemap: https://katrich1000.github.io
