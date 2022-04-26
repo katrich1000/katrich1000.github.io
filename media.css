@@ -69,10 +69,9 @@ height: 90vw;
 border-radius: 17px;
 justify-content: center;
 }
-
 footer{
 display:flex;
 flex-direction:column;
-justify-content: center;
+margin: 0 auto;
 }
 }
