@@ -74,6 +74,7 @@ footer{
 display:flex;
 flex-direction:column;
 justify-content: center;
+gap:30px;
 }
 .company_info{
 	margin: 5px 10px 5px;
