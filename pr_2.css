@@ -1,7 +1,10 @@
+h1{
+	font-family: "Architects Daughter";
+	margin:0 auto; margin-top:15vh; font-size:8vw;
+}
 
 ul {
 list-style: none;
-font-family: 'Calibri'
 text-align:center;
 }
 
@@ -9,11 +12,9 @@ nav ul {
 display: flex;
 flex-direction: row;
 flex-wrap:nowrap;
-
 justify-content: space-around;
 height: 50px;
 background: rgba(255, 255, 255, 0.78);
-
 box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 nav li {
@@ -21,11 +22,13 @@ display: flex;
 
 }
 nav ul li a{
-font-family: 'Calibri';
 	text-transform: uppercase;
-
+font-family: "Calibri";
 color: #030303;
 font-style: normal;
+}
+.slide1{
+	background: url(u.png);background-size: cover;
 }
 
 
@@ -68,7 +71,7 @@ nav span:hover{
 a.button {
 	color: rgba(0, 0, 0, 0.6);
 	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 10px inset;
-    transition: 1.3s;
+  transition: 1.3s;
 }
 span{
 	font-weight: bold
@@ -83,14 +86,12 @@ a.button:hover {
 	box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 120px inset;
 }
 .button {
-  margin-left: 20vw;
     text-decoration: none;
     border-radius: 2px;
-    padding: 2vw 2vw;
-    font-size: 20px;
-		font-family: 'Calibri';
+    padding: 3vw 4vw;
+    font-size: 2vw;
 		margin: 0 auto;
-		margin-top: 34px;
+
 }
  footer .company_info {
 width: 260px;
@@ -115,17 +116,19 @@ width: 260px;
 .text{
 	display: flex;
 	flex-direction: column;
+	gap:20px;
 	justify-content: center;
+	height: 30vw;
 	width: 60%;
 background: rgba(228, 154, 151, 0.13);
-
+font-family: "Calibri"
 }
 .st{
-	background: url(tt.png);background-size: cover;width: 45vw; height: 33vw; margin-right:auto
+	background: url(tt.png);background-size: cover;width: 45vw;  margin-right:auto
 }
 .stoc{
-	height: 20px;text-align: center;
-font-size:25px;font-family: 'Calibri'; text-transform: uppercase
+	text-align: center;
+font-size:3vw; text-transform: uppercase
 }
 .rectangle2{
 display: flex;
@@ -142,14 +145,10 @@ justify-content: center;
 .rectangle3{
 display: flex;
 flex-direction: row;
-height: 33vw;
-
 left: 85px;
-
-width: 100%;
-
+max-height: 100%;
 border-radius: 0px;
-background: rgba(228, 154, 151, 0.13);
+
 }
 
 .rectangle4{
@@ -176,7 +175,7 @@ margin-top: 43px;
 
 }
 h5 {
-	display:flex;justify-content:center;font-family: 'Calibri'
+	display:flex;justify-content:center;
 font-style: normal;font-size:3vw; margin-top: 10vw
 }
 
@@ -219,7 +218,6 @@ display:flex;
 flex-direction:row;
 gap:100px;
 margin-top:20px;
-font-family: 'Calibri';
 font-size: 25px;
 font-style: normal;
 justify-content: center;
@@ -232,8 +230,8 @@ flex-direction:row;
 gap: 18px;
 }
 .int div {
-	height: 16vw;
-	width: 23vw;
+	width: 70vw;
+	height: 50vh;
 }
 .int2{
 	justify-content: center;
